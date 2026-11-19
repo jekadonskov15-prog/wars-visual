@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "warsvisual",
+  "version": "${version}",
+  "name": "Wars Visual",
+  "description": "Темы, HUD-панели, keystrokes, view model и анимация взмаха. Только клиент, без игрового преимущества.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.wars.visual.WarsVisual"] },
+  "mixins": ["wars.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

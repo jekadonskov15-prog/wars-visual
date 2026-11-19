@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.wars.visual.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["HeldItemMixin", "SwingMixin", "WorldMixin", "SkyMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
